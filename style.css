@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #E0FFFF;
+}
+
+.flare {
+    height: 5%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.flare h5 {
+    font-weight: 700;
+    font-size: 1.8vw;
+    letter-spacing: 0.3vw;
+}
+
+.nav {
+    height: 3vh;
+    width: 100%;
+    /* background-color:aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1% 0%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.sneaker {
+    height: 65vh;
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+}
+
+.snea {
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    align-items: center;
+    text-align: end;
+    z-index: 0;
+}
+
+.snea h1 {
+    margin-top: 20%;
+    font-weight: 800;
+    font-size: 100px;
+    z-index: 1;
+}
+
+.snea p {
+    margin-top: -2%;
+    margin-right: 5%;
+    font-size: 15px;
+    z-index: -1;
+}
+
+.ker {
+    width: 50%;
+    height: 100%;
+    /* background-color:crimson; */
+}
+
+.ker h1 {
+    margin-top: -7%;
+    font-weight: 800;
+    font-size: 100px;
+    margin-left: 12%;
+
+}
+
+.ker p {
+    margin-top: 20%;
+    margin-left: 17%;
+    font-size: 15px;
+
+}
+
+.snea img {
+    width: 50vw;
+    position: absolute;
+    transform: translate(0%, 0%);
+    left: 24%;
+    top: 3%;
+    z-index: -2;
+}z
